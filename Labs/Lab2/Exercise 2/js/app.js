@@ -8,11 +8,11 @@ function setup() {
   if(mouseX>200)
   {
   fill("#e60707");
-  circle(mouseX,mouseY,50);
+  circle(mouseX,mouseY,30);
   }
   else
   {
   fill("#1207e6");
-  circle(mouseX,mouseY,50);
+  circle(mouseX,mouseY,30);
   }
   }
