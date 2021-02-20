@@ -15,7 +15,7 @@ for(let i = 0; i < circle_coords.length; i++){
 }
 frames_count=frames_count+1;
 
-if(frames_count==10){
+if(frames_count==5){
     frames_count=0;
 
    circle_coords.push(0);
