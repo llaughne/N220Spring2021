@@ -2,7 +2,7 @@ let myCircle = {
   color: 0,
   x: 400,
   y: 300,
-  size: 200
+  size: 50
   }
 
 function setup(){
@@ -11,7 +11,7 @@ function setup(){
 
 function draw(){
   fill(myCircle.color)
-  myCircle.x+=1
+  myCircle.size+=1
   circle(myCircle.x,myCircle.y,myCircle.size)
 
   
