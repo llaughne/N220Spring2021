@@ -10,13 +10,13 @@ function setup(){
 function draw(){
     yPos.push(mouseY);
     yPos.shift();
-    //Trailing effect of 10 circles following the mouse when not pressed  
+    //Trailing of 10 circles following the mouse when not pressed  
      r = mouseY/2
   //Makes the circles bigger based on Y position.Make circles smaller based on X position 
     colors = [mouseY, 0,255]
-    //The first value follows follow mouse poistion on the Y axis, other values are color ranges. 
+    //follows mouse poistion on the Y axis, other numbers are color ranges. 
      if(mouseIsPressed){
-        //this if statement animates the circles downward at 3pixels when the mouse button is pressed.
+        //if statement animates the circles downward at 3 pixels when the mouse button is pressed.
         moveY = moveY + 3;
         
         if(moveY > 400){
