@@ -19,7 +19,7 @@ function draw(){
         //if statement animates the circles downward at 3 pixels when the mouse button is pressed.
         moveY = moveY + 3;
         
-        if(moveY > 400){
+        if(moveY > 600){
             moveY = 0;
         }
         fill(colors);
