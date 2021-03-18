@@ -25,7 +25,9 @@ function draw(){
         fill(colors);
         circle(400, moveY, r); 
     
-    }else{
+    }
+    
+    else{
         //makes the circles follow the mouse whenever the mouse button is not pressed 
         for(i = 0; i < yPos.length; i++){
         fill(colors);
