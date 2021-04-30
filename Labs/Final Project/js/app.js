@@ -105,7 +105,7 @@ function LoadElements() {
     shuffle(animalArray);
     var card = document.querySelectorAll(".card");
 
-    //loops through cards to use same event listent 
+    //loops through cards to use same event listenter
 
     for (var i = 0; i < card.length; i++) {
         card[i].setAttribute("id", "card_" + i + "_" + animalArray[i]);
