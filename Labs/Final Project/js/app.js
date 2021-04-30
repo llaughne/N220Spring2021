@@ -50,13 +50,13 @@ function flipCard(cardTile, val) {
                 //hides matched cards
                 var tileOne = document.getElementById(CardIds[0]);
                 tileOne.style.visibility = 'hidden'
-                
+
                 var tileTwo = document.getElementById(CardIds[1]);
                 tileTwo.style.visibility = 'hidden'
 
                 // cards flipped counted
                 cardsFlipped += 2;
-                
+
                 //clears arrays
                 Values = [];
 
